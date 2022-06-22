@@ -1,9 +1,9 @@
 package Questao2;
 
 public class AlunoEnem {
-	int id_aluno, ano;
-	String nome;
-	public AlunoEnem(int id_aluno, int ano, String nome) {
+	int id_aluno;
+	String nome, ano;
+	public AlunoEnem(int id_aluno, String ano, String nome) {
 		this.id_aluno = id_aluno;
 		this.ano = ano;
 		this.nome = nome;
@@ -14,10 +14,10 @@ public class AlunoEnem {
 	public void setId_aluno(int id_aluno) {
 		this.id_aluno = id_aluno;
 	}
-	public int getAno() {
+	public String getAno() {
 		return ano;
 	}
-	public void setAno(int ano) {
+	public void setAno(String ano) {
 		this.ano = ano;
 	}
 	public String getNome() {
